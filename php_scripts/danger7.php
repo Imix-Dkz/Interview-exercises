@@ -13,13 +13,11 @@
         $sl_str = strlen($str);
         $sl_sentencia = strlen($sentencia);
 
-        if( $sl_str > $sl_sentencia )
-            { return $return; }
+        if( $sl_str > $sl_sentencia ){ return $return; }
         else{ //Si es menor o al menos del mismo tamaño comienza la comparación
-
             for ($i=0; $i<($sl_sentencia-$sl_str); $i++){
                 $substr_c = substr_compare($sentencia, $str, $i, $sl_str);
-                echo "[$i, $sl_str, $str]: $substr_c \n";
+                //echo "[$i, $sl_str, $str]: $substr_c \n";
                 if( $substr_c == 0 ){ $return = true; break; }
             }
             return $return;
