@@ -36,3 +36,10 @@ Output: impossible
 
 Input: ["4","0:1","2:2","1:2","3:1"]
 Output: 4
+-------------------------------------------
+###[Reto en menos de 3 horas]
+1. Indicar si un string es palindromo
+2. Dividir 2 números sin utilizar el simbolo de división
+3. Iterar un array una vez encuentre el número menor o mayor
+4. Crear un API con 4 metodos (CRUD)
+5. Llenar la BD usando la API que se creó, exportar a CVS el resultado 
