@@ -5,11 +5,8 @@
         + El numero ingresado no puede exeder el 10000000000
         + Si ingresas algo que no sea un número o es vacio, se termina la ejecución del programa
 
-        + [Nota]: Se añadirá( a posteriori) una segúna opción ú opción mejorada que considere el inout por una cadena de datos usando STDIN ya que hay ejercicios que usan ese tipo de solicitudes
+        + [Nota]: Se añadirá( a posteriori) una segúna opción ú opción mejorada que considere el input por una cadena de datos usando STDIN ya que hay ejercicios que usan ese tipo de solicitudes
     */
-    function itsFibbo($inNum)
-    {   //Se comprubeba si pertenece a los primero 1000 números de fibonacci
-    }
 
     //1ero se genera el arreglo para optimizar memoria
     $fiboArr = array(0,1);
